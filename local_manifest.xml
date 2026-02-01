@@ -7,24 +7,23 @@
 
     <!-- Device Trees -->
     <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="PocoF4Releases" revision="ascp"/>
-    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="PocoF4Releases" revision="ascp-new-dolby"/>
+    <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="PocoF4Releases" revision="ascp"/>
 
     <!-- Vendor repositories -->
-    <project path="vendor/xiaomi/munch" name="proprietary_vendor_xiaomi_munch" remote="PocoF4Releases" revision="lineage-23.1"/>
-    <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="PocoF4Releases" revision="lineage-23.1"/>
+    <project path="vendor/xiaomi/munch" name="proprietary_vendor_xiaomi_munch" remote="PocoF4Releases" revision="lineage-23.0"/>
+    <project path="vendor/xiaomi/sm8250-common" name="proprietary_vendor_xiaomi_sm8250-common" remote="PocoF4Releases" revision="lineage-23.0"/>
     <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="Kenskuyy-Prjkt" revision="16" />
     <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="Kenskuyy-Prjkt" revision="16"/>
     <project path="vendor/private-keys/keys" name="private-keys" remote="kenaidi01" revision="others" />
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8250" name="fusionX_sm8250" remote="Kenskuyy-Prjkt" revision="wip-next" />
+    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="PocoF4Releases" revision="bpf" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Kenskuyy-Prjkt" revision="16" />
-    <project path="hardware/dolby" name="hardware_dolby" remote="PocoF4Releases" revision="lineage-23.1" />
 
     <!-- Packages -->
     <remove-project name="LineageOS/android_packages_resources_devicesettings" />
     <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PocoF4Releases" revision="aosp-16"/>
-    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="PocoF4Releases" revision="main"/>
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="PocoF4Releases" revision="lunaris-16"/>
 </manifest>
