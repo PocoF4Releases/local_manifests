@@ -17,7 +17,7 @@
     <project path="vendor/lunaris-priv/keys" name="private-keys" remote="kenaidi01" revision="luna"/>
 
     <!-- Kernel -->
-    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="Kenskuyy-Prjkt" revision="SUSFS" clone-depth="1"/>
+    <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250" remote="PocoF4Releases" revision="bpf" clone-depth="1"/>
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Kenskuyy-Prjkt" revision="16" />
@@ -25,5 +25,5 @@
     <!-- Packages -->
     <remove-project name="LineageOS/android_packages_resources_devicesettings" />
     <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="PocoF4Releases" revision="aosp-16"/>
-    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="PocoF4Releases" revision="main"/>
+    <project path="packages/apps/GameBar" name="packages_apps_GameBar" remote="PocoF4Releases" revision="lunaris-16"/>
 </manifest>
